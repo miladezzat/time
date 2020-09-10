@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import './App.css';
+import React, { Component } from 'react';
 
 export default class App extends Component {
   state = {
@@ -13,11 +12,6 @@ export default class App extends Component {
         time
       })
     }, 1000);
-  }
-  countUp = () => {
-    this.setState({
-      count: this.state.count + 1,
-    })
   }
   render() {
     return (
